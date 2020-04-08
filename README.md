@@ -8,7 +8,7 @@ Use it at [fotos](https://blackrest.herokuapp.com/craw/)
 
 # Endpoint:
 ```
-`https://blackrest.herokuapp.com/craw/`
+https://blackrest.herokuapp.com/craw/
 ```
 
 ### Documentation and Contributing
