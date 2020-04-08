@@ -11,12 +11,10 @@ def respond():
     return jsonify({
     "url" : f"https://raw.githubusercontent.com/blacksmithop/fotos/master/images/{randrange(1,foto_count)}.jpg"
     })
-# A welcome message to test our server
+
 @app.route('/')
 def index():
-    return jsonify({
-    "data": "Welcome to fotos!"
-    })
+     return render_template("index.html")
 
 if __name__ == '__main__':
     # Threaded option to enable multiple instances for multiple user access support
