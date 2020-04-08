@@ -3,7 +3,7 @@ from random import randrange
 DIR = './images'
 foto_count = len([name for name in os.listdir(DIR) if os.path.isfile(os.path.join(DIR, name))])
 
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 app = Flask(__name__)
 
 @app.route('/craw/', methods=['GET'])
