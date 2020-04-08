@@ -4,7 +4,7 @@ Get random crow images
 
 Use it at [fotos](https://blackrest.herokuapp.com/craw/) 
 
-![Image](src)
+![Image](https://raw.githubusercontent.com/blacksmithop/fotos/master/static/cover.gif)
 
 ```markdown
 # Endpoint:
