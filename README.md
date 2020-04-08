@@ -14,3 +14,4 @@ https://blackrest.herokuapp.com/craw/
 ### Documentation and Contributing
 
 Check out the [documentation](https://github.com/blacksmithop/fotos/wiki/How-to-use) or open a issue / PR
+[Github-Page](https://blacksmithop.github.io/fotos/)
