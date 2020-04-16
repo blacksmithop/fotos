@@ -15,6 +15,10 @@ def respond():
 @app.route('/')
 def index():
      return render_template("index.html")
+    
+@app.route('/upload/', methods=['GET'])
+def respond():
+    return render_template("upload.html")
 
 @app.errorhandler(404)
 def page_not_found(e):
