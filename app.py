@@ -17,7 +17,7 @@ def index():
      return render_template("index.html")
     
 @app.route('/upload/', methods=['GET'])
-def respond():
+def upload():
     return render_template("upload.html")
 
 @app.errorhandler(404)
